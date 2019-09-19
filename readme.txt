@@ -5,15 +5,10 @@ Considerations:
 
 Organization:
 	The requested are in the root.
-	
 	The codes are in Scripts directory. 
-
 	The Bottleneck directory was used to store the decoding of the training images so that it was not necessary to decode them before each training. This directory is not need to analyze the images test.
-
 	The TruthImages directory was used to store the true images and after it was compressed into a zip file in the Output directory.
-	
 	The inception_v3.pb was used to build the model. 
-	
 	The trained_model.pb is the trained model. 
 
 Libraries:
@@ -30,5 +25,6 @@ Comands:
 		For just the numpy file = python Scripts/Image_Analyzer.py numpy_file
 
 
-
-Thanks for the opportunity and I hope we can work and evolve together! 
+ _______________________________________________________________________
+|Thanks for the opportunity and I hope we can work and evolve together! |
+|_______________________________________________________________________|
