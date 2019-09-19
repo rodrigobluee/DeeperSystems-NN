@@ -14,7 +14,7 @@ batch_size = 70
 
 def Adiciona_Parametros_Treinamento(entropia_cruzada_mean):
     with tensorflow.name_scope('train'):
-        otimizador=tensorflow.train.GradientDescentOptimizer(0.1)
+        otimizador=tensorflow.train.GradientDescentOptimizer(0.15)
         passo_treinamento=otimizador.minimize(entropia_cruzada_mean)
     return passo_treinamento
     
