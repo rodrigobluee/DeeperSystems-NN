@@ -11,6 +11,10 @@ Organization:
 	The Bottleneck directory was used to store the decoding of the training images so that it was not necessary to decode them before each training. This directory is not need to analyze the images test.
 
 	The TruthImages directory was used to store the true images and after it was compressed into a zip file in the Output directory.
+	
+	The inception_v3.pb was used to build the model. 
+	
+	The trained_model.pb is the trained model. 
 
 
 Comands:
