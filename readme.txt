@@ -8,8 +8,8 @@ Organization:
 	The codes are in Scripts directory. 
 	The Bottleneck directory was used to store the decoding of the training images so that it was not necessary to decode them before each training. This directory is not need to analyze the images test. I didn't uploded all the content due to the size.
 	The TruthImages directory was used to store the true images and after it was compressed into a zip file in the root. I didn't uploded all the content due to the size.
-	The inception_v3.pb was used to build the model. 
-	The trained_model.pb is the trained model. 
+	The inception_v3.pb was used to build the model, but could not do the upload (93MB)
+	The trained_model.pb is the trained model, but could not do the upload (85MB)
 	The image directories - train and test - should be in the root.
 	I used 2200 training times with 70 batch size images and learn rate 0.15. For lack of time to analyze the best amount.
 
