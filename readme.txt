@@ -4,12 +4,13 @@ Considerations:
 
 
 Organization:
-	The requested outputs are in the Output directory.The requested outputs are in the Output directory.
+	The requested are in the root.
+	
 	The codes are in Scripts directory. 
 
 	The Bottleneck directory was used to store the decoding of the training images so that it was not necessary to decode them before each training. This directory is not need to analyze the images test.
 
-	The TruthImages directory was used to store the true images and after it was compressed into a zip 	file in the Output directory.
+	The TruthImages directory was used to store the true images and after it was compressed into a zip file in the Output directory.
 
 
 Comands:
