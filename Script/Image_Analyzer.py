@@ -35,6 +35,7 @@ def Carrega_Grafo_e_Rotulos(model_info):
 
 def Rotate_Image(image, indice_top):
     #labels = ['upright', 'rotated_left', 'rotated_right', 'upside_down']
+    print(indice_top)
     if indice_top == 0:
         return image
         
@@ -110,9 +111,10 @@ if __name__ == '__main__':
         labels = ['upright', 'rotated_left', 'rotated_right', 'upside_down']
         matriz_numpy=[]
         
-        for path_imagem in gfile.Glob('../test/*'):
+        for path_imagem in gfile.Glob('test/*'):
         #for path_imagem in range(1):
-            #image = cv2.imread('../test/90-68090_1904-08-21_1955.jpg')
+            image = cv2.imread(path_imagem)
+            image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)  
             
             face_dims_expander=tensorflow.expand_dims(image,0)
             face_resized=tensorflow.image.resize_bilinear(face_dims_expander,[model_info['input_width'], model_info['input_height']])

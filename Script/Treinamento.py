@@ -10,7 +10,7 @@ from tensorflow.python.util import compat
 
 labels = ['upright', 'rotated_left', 'rotated_right', 'upside_down']
 n_epochs = 10000
-batch_size = 500
+batch_size = 180
 
 def Adiciona_Parametros_Treinamento(entropia_cruzada_mean):
     with tensorflow.name_scope('train'):
@@ -29,7 +29,7 @@ def Cria_Lista_Treinamento():
         readCSV = list(reader(csvfile, delimiter=','))
    
     for row in readCSV[1:]:
-        train_images_path.append(os.path.join('..\\train',row[0]))
+        train_images_path.append(os.path.join('train',row[0]))
         
         ground_truth = np.zeros(4, dtype=np.float32)
         ground_truth[labels.index(row[1])] = 1.0
