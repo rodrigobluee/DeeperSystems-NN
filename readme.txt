@@ -11,6 +11,7 @@ Organization:
 	The inception_v3.pb was used to build the model. 
 	The trained_model.pb is the trained model. 
 	The image directories - train and test - should be in the root.
+	I used 10000 training times with 500 batch size images. For lack of time to analyze the best amount.
 
 Libraries:
 	Tensorflow, cv2. 
