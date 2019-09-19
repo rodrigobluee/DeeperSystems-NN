@@ -9,8 +9,8 @@ from tensorflow.python.util import compat
 
 
 labels = ['upright', 'rotated_left', 'rotated_right', 'upside_down']
-n_epochs = 4000
-batch_size = 90
+n_epochs = 2200
+batch_size = 70
 
 def Adiciona_Parametros_Treinamento(entropia_cruzada_mean):
     with tensorflow.name_scope('train'):
