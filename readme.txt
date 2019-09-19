@@ -16,6 +16,9 @@ Organization:
 	
 	The trained_model.pb is the trained model. 
 
+Libraries:
+	Tensorflow, cv2. 
+
 
 Comands:
 	To do retrain the model = python Scripts/Main.py retrain
