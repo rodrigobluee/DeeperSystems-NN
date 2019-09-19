@@ -1,0 +1,4 @@
+upright
+rotated_left
+rotated_right
+upside_down
