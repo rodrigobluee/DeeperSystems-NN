@@ -10,6 +10,7 @@ Organization:
 	The TruthImages directory was used to store the true images and after it was compressed into a zip file in the root. I didn't uploded all the content due to the size.
 	The inception_v3.pb was used to build the model. 
 	The trained_model.pb is the trained model. 
+	The image directories - train and test - should be in the root.
 
 Libraries:
 	Tensorflow, cv2. 
